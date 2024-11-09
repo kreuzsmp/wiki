@@ -7,7 +7,7 @@ hero:
     tagline: "Вики Minecraft-сервера Kreuz"
     actions:
       - theme: brand
-        text: Markdown Examples
+        text: Начало
         link: /1/beginning/about-project.md
     image:
         src: /Vector.svg
