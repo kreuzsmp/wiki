@@ -77,7 +77,8 @@
 :root {
   --vp-button-brand-border: transparent;
   --vp-button-brand-text: var(--vp-c-white);
-  --vp-button-brand-bg: var(--vp-c-brand-3);
+  --vp-button-brand-bg: #3346FF;
+  /*--vp-button-brand-bg: var(--vp-c-brand-3);*/
   --vp-button-brand-hover-border: transparent;
   --vp-button-brand-hover-text: var(--vp-c-white);
   --vp-button-brand-hover-bg: var(--vp-c-brand-2);
@@ -92,12 +93,12 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: #FFF;
-  /*--vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #bd34fe 30%,
-    #41d1ff
-  );*/
+  --vp-home-hero-name-background: #3346FF;
+    /*--vp-home-hero-name-background: -webkit-linear-gradient(*/
+    /*  120deg,*/
+    /*  #bd34fe 30%,*/
+    /*  #41d1ff*/
+    /*);*/
 
   --vp-home-hero-image-background-image: transparent;
   /*--vp-home-hero-image-background-image: linear-gradient(
