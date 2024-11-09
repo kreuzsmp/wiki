@@ -16,7 +16,7 @@ const vitePressOptions = {
             { text: 'Начало', link: '/1/beginning/about-project.md' }
         ],
         socialLinks: [
-            { icon: 'discord', link: 'https://kreuzsmp.ru/discord-server' },
+            { icon: 'discord', link: 'https://kreuzsmp.ru/discord' },
             { icon: 'youtube', link: 'https://kreuzsmp.ru/youtube' },
             { icon: 'tiktok', link: 'https://kreuzsmp.ru/tiktok' },
             { icon: 'telegram', link: 'https://kreuzsmp.ru/telegram' },
