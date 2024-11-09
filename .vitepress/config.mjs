@@ -6,14 +6,23 @@ const vitePressOptions = {
     title: "KreuzSMP wiki",
     description: "Вики Minecraft-сервера Kreuz",
     themeConfig: {
+        logo: '/Vector.svg',
+        siteTitle: 'KSMP',
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'beginning', link: '/1/beginning/about-project.md' }
+            { text: 'Главная', link: '/' },
+            { text: 'Начало', link: '/1/beginning/about-project.md' }
         ],
-
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+            { icon: 'discord', link: 'https://kreuzsmp.ru/discord-server' },
+            { icon: 'youtube', link: 'https://kreuzsmp.ru/youtube' },
+            { icon: 'tiktok', link: 'https://kreuzsmp.ru/tiktok' },
+            { icon: 'telegram', link: 'https://kreuzsmp.ru/telegram' },
         ]
+    },
+    markdown: {
+        image: {
+            lazyLoading: true,
+        }
     }
 };
 
