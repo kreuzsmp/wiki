@@ -5,6 +5,9 @@ const vitePressOptions = {
 // VitePress's options here...
     title: "KreuzSMP wiki",
     description: "Вики Minecraft-сервера Kreuz",
+    head: [
+        ['link', { rel: "icon", type: "image/png", href: "/favicon.png"}]
+    ],
     themeConfig: {
         logo: '/Vector.svg',
         siteTitle: 'KSMP',
